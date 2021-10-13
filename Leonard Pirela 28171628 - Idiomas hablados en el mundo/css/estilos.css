@@ -1,0 +1,145 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+
+
+#contenedor_principal{
+ width: 100%;
+ margin:auto;
+ height: 100%;
+ background-color: khaki;
+ margin: 0;
+}
+
+
+#encabezado_pagina{
+height: 100%;
+width:100%;
+background-image: url(../img/flagsworld.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+#encabezado_pagina h1{
+padding-top: 3%;
+padding-left: 3%;
+float: left;
+ -webkit-text-stroke: 2px black; 
+ margin:0px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+ font-size: 2cm;
+}
+
+#logotipo {
+	
+	padding-bottom: 4%;
+	padding-left: 4%;
+	width: 4cm;
+	height: 4cm;
+	
+}
+
+#lista_navegacion{
+ width:100%;
+ margin-top: 0;
+ background-color:teal;
+ transition: all 0.5s;
+ position: absolute;
+}
+
+#lista_navegacion ol{
+ display: flex;
+ padding:0px;
+ margin:0px;
+}
+
+#lista_navegacion ol li{
+ width: 12.3%;
+ height: 100%;
+ padding-left: 4.5%;
+ padding-right: 4.5%;
+ text-align:center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ list-style: none;
+ padding-top:3%; 
+ padding-bottom: 3%;
+ line-height: 20%; 
+ border-right: 1px solid black;
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ display: block;
+}
+
+#lista_navegacion ol li a{
+ color:white;
+ -webkit-text-stroke: 0.5px black; 
+ text-decoration: none;
+ font-weight: bold;
+ padding-left: 10%;
+ display: table;
+ text-align:center;
+}
+
+#lista_navegacion ol li:hover{
+ color:teal;
+ background-color: gold;
+}
+
+#titulo_cuerpo{
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.5cm;
+ margin-top: 10%;
+}
+
+#pie_pagina{
+ width:100%;
+ -webkit-text-stroke: 0.5px black; 
+ border-top: 1px solid black;
+ margin-top: 5%;
+ height: 3cm;
+ line-height: 20%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color:teal;
+ text-align: center;
+ padding-top:15px;
+ color:white;
+ float: none;
+}
+
+.texto_justificado {	
+	text-align: justify;
+	font-size: 0.5cm;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;		
+}
+
+
+.imagenes_izquierda {
+	width : 50%;
+	float: left;
+	padding-left: 5%;
+	margin-right: 5%;
+	
+}
+
+.imagenes_derecha {
+	width : 50%;
+	float: right;
+	padding-right: 5%;
+	margin-left: 5%;
+	
+}
+
+.imagenes {
+	width: 12cm;
+	height: 8cm;
+	
+}
+
+#cuerpo_pagina{
+ display: table;
+}
